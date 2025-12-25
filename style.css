@@ -1,0 +1,524 @@
+/*--старый body
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #333;
+}--*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff; /* БЕЛЫЙ фон */
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;   /* ВОТ ЭТО ЦЕНТРИРУЕТ */
+  padding: 20px;
+}
+
+/* ---------------- шапка ---------------- */
+.production-info {
+  background: #fff3a0;
+  border: 2px solid #989494;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 900px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/*.header {
+    background: white;
+    border-bottom: 2px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}*/
+
+/*.site-header {
+    background: white;
+    padding: 20px 40px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.site-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-main {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.2;
+}
+
+.title-city {
+    font-size: 14px;
+    color: #777;
+    margin-top: 4px;
+}*/
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #463308;
+}
+
+.city {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/*.catalog-btn {
+    margin-left: 20px;
+    background: #e02200;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}*/
+
+/*.search-box {
+    display: flex;
+    width: 40%;
+}*/
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+}
+
+.search-btn {
+    width: 50px;
+    border: none;
+    /*background: #e0a400;*/
+    background: #e01a00;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*.header-right .icon {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #e0a400;
+    cursor: pointer;
+}*/
+
+/* ---------------- фото ---------------- 
+.photos {
+    text-align: center;
+    padding: 20px;
+}
+
+.photos img {
+    max-width: 80%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}*/
+/*.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+}*/
+.yellow-section {
+  background: #ffd84d;
+  padding: 40px 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 260px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/*---Видео-----*/
+/*.media-card {
+    position: relative;
+    width: 280px;
+}
+
+.media-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    color: #ffd43b;
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+/*.video-card {
+  position: relative;
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 8px;
+  pointer-events: none; /* чтобы не запускалось внутри 
+}
+.video-label {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.7);
+  color: #ffd43b;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}*/
+
+/* ---------------- таблица ---------------- */
+
+.price-block {
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+table th {
+    background: #e0a400;
+    color: white;
+}
+
+/* ---------------- описание ---------------- */
+
+/*.description {
+    padding: 20px 40px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.gallery-vertical {
+  padding: 40px;
+  text-align: center;
+}
+
+.gallery-vertical img {
+  width: 80%;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  border: 4px solid #ffcc00;
+}
+
+.video-block {
+  padding: 40px;
+  text-align: center;
+}
+
+/*.video-block video {
+  width: 80%;
+  border-radius: 15px;
+  border: 4px solid #ffcc00;
+}*/
+
+/*.patent-block {
+  padding: 40px;
+  text-align: center;
+}
+
+.patent-block img {
+  width: 60%;
+  border: 4px solid #ffcc00;
+  border-radius: 12px;
+}*/
+
+table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 18px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+th {
+  background: #ffcc00;
+  color: #000;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* ЭФФЕКТ НАВЕДЕНИЯ */
+tr:hover {
+  background: #fff3b0;
+  transform: scale(1.01);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.order-block {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/*.order-btn {
+  display: inline-block;
+  background: #ffcc00;
+  color: #000;
+  padding: 20px 40px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background: #000;
+  color: #ffcc00;
+  transform: scale(1.05);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #333;
+}*/
+
+/* Шапка */
+.header {
+    background: #ffd94d;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contacts {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contacts a {
+    padding: 10px 18px;
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.contacts a:hover {
+    background: #ff6200;
+    color: #000;
+}
+
+/* Галерея */
+.gallery {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.grid img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Таблица */
+.price {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.price table {
+    width: 75%;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.price th, .price td {
+    padding: 14px;
+    border-bottom: 1px solid #ccc;
+}
+
+.price tr:hover {
+    background: #fff8d1;
+}
+
+/* Патент 
+.patent, .video {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.patent img {
+    width: 320px;
+    border-radius: 8px;
+}*/
+
+.patent {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.patent img {
+  width: 380px;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+/*--Завка на почту--*/
+.contact-block {
+  background: #ffd400;
+  padding: 40px 20px;
+  margin: 60px auto;
+  max-width: 800px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.contact-block h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.contact-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-mail {
+  display: inline-block;
+  background: #000;
+  color: #ffd400;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.25s;
+}
+
+.contact-mail:hover {
+  background: #222;
+  transform: scale(1.05);
+}
+
+/*body {
+  background: #ffffff !important;
+}*/
+
+
+.no-wrap li {
+    white-space: nowrap;
+}
+
+
+/*---Видео---*/
+.media-card {
+    position: relative;
+    width: 260px;
+    margin: 20px auto;
+}
+
+.media-card img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffd43b;
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
