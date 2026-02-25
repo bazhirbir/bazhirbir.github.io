@@ -128,7 +128,7 @@
             <i data-lucide="alert-triangle" class="text-brand-primary h-6 w-6 flex-shrink-0 animate-pulse"></i>
             <div>
                 <p class="font-bold text-gray-900 text-sm md:text-base">
-                    ПЛАНИРУЕМ НАЧАЛО ПРОИЗВОДСТВА: <span class="bg-brand-primary px-2 py-0.5 rounded text-white inline-block mt-1 sm:mt-0">26.03.2026</span>
+                    ПЛАНИРУЕМ НАЧАЛО ПРОИЗВОДСТВА: <span class="bg-brand-primary px-2 py-0.5 rounded text-white inline-block mt-1 sm:mt-0">15.04.2026</span>
                 </p>
                 <p class="text-xs md:text-sm text-gray-600 mt-1">
                     В настоящее время принимаем заказы на мелкие партии. Индивидуальные заказы.
@@ -284,8 +284,9 @@
         <thead class="bg-gray-50 text-gray-700 uppercase text-sm font-bold border-b border-gray-200">
             <tr>
                 <th class="px-6 py-4 w-1/6">Модель</th>
-                <th class="px-6 py-4 w-1/3">Характеристики</th>
-                <th class="px-6 py-4 w-1/3">Марка кабеля</th>
+                <th class="px-6 py-4 w-1/12 text-center">Чертеж</th>
+                <th class="px-6 py-4 w-1/4">Характеристики</th>
+                <th class="px-6 py-4 w-1/4">Марка кабеля</th>
                 <th class="px-6 py-4 w-1/6 text-right">Цена</th>
             </tr>
         </thead>
@@ -293,6 +294,11 @@
             <!-- Row 1 -->
             <tr class="hover:bg-amber-50/50 transition duration-150">
                 <td class="px-6 py-4 font-bold text-gray-900">D57/R800</td>
+                <td class="px-6 py-4 text-center">
+                    <button onclick="openModal('image', 'd57 3-5 l-2300 r-800.jpg')" class="group relative inline-flex items-center justify-center p-2 rounded-lg bg-amber-50 text-brand-primary hover:bg-brand-primary hover:text-white transition-all duration-300 shadow-sm" title="Посмотреть чертеж">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                    </button>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 57/3,5<br>L-2300. R-800
                 </td>
@@ -306,6 +312,11 @@
             <!-- Row 2 -->
             <tr class="hover:bg-amber-50/50 transition duration-150 bg-gray-50/30">
                 <td class="px-6 py-4 font-bold text-gray-900">D57/R850</td>
+                <td class="px-6 py-4 text-center">
+                    <button onclick="openModal('image', 'd57 3-5 l-2300 r850.jpg')" class="group relative inline-flex items-center justify-center p-2 rounded-lg bg-amber-50 text-brand-primary hover:bg-brand-primary hover:text-white transition-all duration-300 shadow-sm" title="Посмотреть чертеж">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                    </button>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 57/3,5<br>L-2300. R-850
                 </td>
@@ -319,6 +330,11 @@
             <!-- Row 3 -->
             <tr class="hover:bg-amber-50/50 transition duration-150">
                 <td class="px-6 py-4 font-bold text-gray-900">D57/R1400</td>
+                <td class="px-6 py-4 text-center">
+                    <span class="inline-flex items-center justify-center p-2 rounded-lg text-gray-300" title="Чертеж отсутствует">
+                        <i data-lucide="file-minus" class="w-5 h-5"></i>
+                    </span>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 57/3,5<br>L-2300. R-1400
                 </td>
@@ -330,6 +346,11 @@
             <!-- Row 4 -->
             <tr class="hover:bg-amber-50/50 transition duration-150 bg-gray-50/30">
                 <td class="px-6 py-4 font-bold text-gray-900">D76/R1000</td>
+                <td class="px-6 py-4 text-center">
+                    <span class="inline-flex items-center justify-center p-2 rounded-lg text-gray-300" title="Чертеж отсутствует">
+                        <i data-lucide="file-minus" class="w-5 h-5"></i>
+                    </span>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 76/3,5<br>L-2300. R-1000
                 </td>
@@ -343,6 +364,11 @@
             <!-- Row 5 -->
             <tr class="hover:bg-amber-50/50 transition duration-150">
                 <td class="px-6 py-4 font-bold text-gray-900">D76/R900</td>
+                <td class="px-6 py-4 text-center">
+                    <span class="inline-flex items-center justify-center p-2 rounded-lg text-gray-300" title="Чертеж отсутствует">
+                        <i data-lucide="file-minus" class="w-5 h-5"></i>
+                    </span>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 76/3,5<br>L-2300. R-900
                 </td>
@@ -356,6 +382,11 @@
             <!-- Row 6 -->
             <tr class="hover:bg-amber-50/50 transition duration-150 bg-gray-50/30">
                 <td class="px-6 py-4 font-bold text-gray-900">D76/R1400</td>
+                <td class="px-6 py-4 text-center">
+                    <span class="inline-flex items-center justify-center p-2 rounded-lg text-gray-300" title="Чертеж отсутствует">
+                        <i data-lucide="file-minus" class="w-5 h-5"></i>
+                    </span>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 76/3,5<br>L-2300. R-1400
                 </td>
@@ -367,6 +398,11 @@
             <!-- Row 7 -->
             <tr class="hover:bg-amber-50/50 transition duration-150">
                 <td class="px-6 py-4 font-bold text-gray-900">D89/R800</td>
+                <td class="px-6 py-4 text-center">
+                    <button onclick="openModal('image', 'd89 3.5 l-2300 r-800.jpg')" class="group relative inline-flex items-center justify-center p-2 rounded-lg bg-amber-50 text-brand-primary hover:bg-brand-primary hover:text-white transition-all duration-300 shadow-sm" title="Посмотреть чертеж">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                    </button>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 89/3,5<br>L-2300. R-800
                 </td>
@@ -380,6 +416,11 @@
             <!-- Row 8 -->
             <tr class="hover:bg-amber-50/50 transition duration-150 bg-gray-50/30">
                 <td class="px-6 py-4 font-bold text-gray-900">D89/R850</td>
+                <td class="px-6 py-4 text-center">
+                    <button onclick="openModal('image', 'd89-3.5 l-2300 r-850.jpg')" class="group relative inline-flex items-center justify-center p-2 rounded-lg bg-amber-50 text-brand-primary hover:bg-brand-primary hover:text-white transition-all duration-300 shadow-sm" title="Посмотреть чертеж">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                    </button>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 89/3,5<br>L-2300. R-850
                 </td>
@@ -393,6 +434,11 @@
             <!-- Row 9 -->
             <tr class="hover:bg-amber-50/50 transition duration-150">
                 <td class="px-6 py-4 font-bold text-gray-900">D89/R1000</td>
+                <td class="px-6 py-4 text-center">
+                    <span class="inline-flex items-center justify-center p-2 rounded-lg text-gray-300" title="Чертеж отсутствует">
+                        <i data-lucide="file-minus" class="w-5 h-5"></i>
+                    </span>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 89/3,5<br>L-2300. R-1000
                 </td>
@@ -406,6 +452,11 @@
             <!-- Row 10 -->
             <tr class="hover:bg-amber-50/50 transition duration-150 bg-gray-50/30">
                 <td class="px-6 py-4 font-bold text-gray-900">D32/R400</td>
+                <td class="px-6 py-4 text-center">
+                    <button onclick="openModal('image', 'd32 3-5 l2300 r400.jpg')" class="group relative inline-flex items-center justify-center p-2 rounded-lg bg-amber-50 text-brand-primary hover:bg-brand-primary hover:text-white transition-all duration-300 shadow-sm" title="Посмотреть чертеж">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                    </button>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 32/3,5<br>L-2300. R-400
                 </td>
@@ -419,6 +470,11 @@
             <!-- Row 11 -->
             <tr class="hover:bg-amber-50/50 transition duration-150">
                 <td class="px-6 py-4 font-bold text-gray-900">D40/R400</td>
+                <td class="px-6 py-4 text-center">
+                    <button onclick="openModal('image', 'd40 3-5 l2300 r400.jpg')" class="group relative inline-flex items-center justify-center p-2 rounded-lg bg-amber-50 text-brand-primary hover:bg-brand-primary hover:text-white transition-all duration-300 shadow-sm" title="Посмотреть чертеж">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                    </button>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 40/3,5<br>L-2300. R-400
                 </td>
@@ -432,6 +488,11 @@
             <!-- Row 12 -->
             <tr class="hover:bg-amber-50/50 transition duration-150 bg-gray-50/30">
                 <td class="px-6 py-4 font-bold text-gray-900">D50/R400</td>
+                <td class="px-6 py-4 text-center">
+                    <button onclick="openModal('image', 'd50 35 l2300 r400.jpg')" class="group relative inline-flex items-center justify-center p-2 rounded-lg bg-amber-50 text-brand-primary hover:bg-brand-primary hover:text-white transition-all duration-300 shadow-sm" title="Посмотреть чертеж">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                    </button>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 50/3,5<br>L-2300. R-400
                 </td>
@@ -445,6 +506,11 @@
             <!-- Row 13 -->
             <tr class="hover:bg-amber-50/50 transition duration-150">
                 <td class="px-6 py-4 font-bold text-gray-900">D57/R400</td>
+                <td class="px-6 py-4 text-center">
+                    <button onclick="openModal('image', 'd57 3-5 l-2300 r-400.jpg')" class="group relative inline-flex items-center justify-center p-2 rounded-lg bg-amber-50 text-brand-primary hover:bg-brand-primary hover:text-white transition-all duration-300 shadow-sm" title="Посмотреть чертеж">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                    </button>
+                </td>
                 <td class="px-6 py-4 text-gray-600 font-mono text-xs md:text-sm">
                     D 57/3,5<br>L-2300. R-400
                 </td>
